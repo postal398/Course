@@ -1,5 +1,8 @@
 package model
 
-data class Topic(var Img : Int, var Title : StrictMath, var NumIdk : Int) {
+import androidx.compose.runtime.Composable
+
+
+data class Topic(var nameOfImage: Int, var numIdkWhat: Int, var linkToRes : Int) {
 
 }
